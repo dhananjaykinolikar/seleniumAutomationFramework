@@ -42,9 +42,7 @@ public class LoginPage {
 	}
 	
 	public void clicklogin() {
-		if(loginbutton !=null) {
-			System.out.println(loginbutton);
 		loginbutton.click();
-		}
+		
 	}
 }

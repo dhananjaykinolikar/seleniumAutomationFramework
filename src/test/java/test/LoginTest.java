@@ -43,9 +43,9 @@ public class LoginTest extends BaseTest {
 	
 	
 		//@Test(dataProvider ="Logindata2")
-		@Test
+	@Test
 		//@Parameters({"username","password"})
-		
+	
 		//public void testValidLogin(String username, String password) {
 			public void testValidLogin() {
 			LoginPage loginPage = new LoginPage(driver);
@@ -62,14 +62,15 @@ public class LoginTest extends BaseTest {
 			
 			
 			loginPage.clicklogin();
-			test.pass("click button successfully");
+			
+			//test.pass("click button successfully");
 			
 			System.out.println("Title of page" +driver.getTitle());
 			Assert.assertEquals(driver.getTitle(), "Just a moment...");
 			
 			Log.info("Login Test completed");
 			
-			test.pass("Login Successfully");
+			//test.pass("Login Successfully");
 			
 		}
 		/*
