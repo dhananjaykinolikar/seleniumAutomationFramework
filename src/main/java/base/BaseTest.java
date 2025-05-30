@@ -21,7 +21,7 @@ import utils.Log;
 public class BaseTest {
 	protected WebDriver driver;
 	protected static ExtentReports extent;
-	public static ExtentTest test;
+	protected static ExtentTest test;
 
 	@BeforeSuite
 	public void setupReport() {

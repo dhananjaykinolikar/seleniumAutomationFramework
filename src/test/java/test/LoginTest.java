@@ -44,20 +44,23 @@ public class LoginTest extends BaseTest {
 	
 		//@Test(dataProvider ="Logindata2")
 	@Test
-		//@Parameters({"username","password"})
+	@Parameters({"username","password"})
 	
-		//public void testValidLogin(String username, String password) {
-			public void testValidLogin() {
-			LoginPage loginPage = new LoginPage(driver);
+	public void testValidLogin(String username, String password) {
+			//public void testValidLogin() {
+			test = ExtentReportManager.createTest("Login Test - ");
+			test.info("Navigating to URL");
+			
+		LoginPage loginPage = new LoginPage(driver);
 			
 			Log.info("Starting login test--");
 			
 			//test = ExtentReportManager.createTest("Login Test"+username);
 			
-			loginPage.enterUsername("admin@yourstore.com");
-			loginPage.enterPassword("admin");
-			//loginPage.enterUsername(username);
-			//loginPage.enterPassword(password);
+			//loginPage.enterUsername("admin@yourstore.com");
+			//loginPage.enterPassword("admin");
+			loginPage.enterUsername(username);
+			loginPage.enterPassword(password);
 			
 			
 			

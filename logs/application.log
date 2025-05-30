@@ -140,3 +140,22 @@
 2025-05-30 17:00:55 [main] INFO  Log - Starting login test--
 2025-05-30 17:00:58 [main] INFO  Log - Login Test completed
 2025-05-30 17:00:58 [main] INFO  Log - closing the webpage
+2025-05-30 19:00:25 [main] INFO  Log - Starting webdriver--
+2025-05-30 19:00:31 [main] INFO  Log - NAvigating url--
+2025-05-30 19:04:06 [main] INFO  Log - Starting webdriver--
+2025-05-30 19:04:08 [main] INFO  Log - NAvigating url--
+2025-05-30 19:11:41 [main] INFO  Log - Starting webdriver--
+2025-05-30 19:11:43 [main] INFO  Log - NAvigating url--
+2025-05-30 19:12:50 [main] INFO  Log - Starting webdriver--
+2025-05-30 19:12:52 [main] INFO  Log - NAvigating url--
+2025-05-30 19:18:28 [main] INFO  Log - Starting webdriver--
+2025-05-30 19:18:30 [main] INFO  Log - NAvigating url--
+2025-05-30 19:20:26 [main] INFO  Log - Starting webdriver--
+2025-05-30 19:20:28 [main] INFO  Log - NAvigating url--
+2025-05-30 19:22:30 [main] INFO  Log - Starting webdriver--
+2025-05-30 19:22:32 [main] INFO  Log - NAvigating url--
+2025-05-30 19:24:20 [main] INFO  Log - Starting webdriver--
+2025-05-30 19:24:22 [main] INFO  Log - NAvigating url--
+2025-05-30 19:24:25 [main] INFO  Log - Starting login test--
+2025-05-30 19:24:27 [main] INFO  Log - Login Test completed
+2025-05-30 19:24:27 [main] INFO  Log - closing the webpage
